@@ -175,16 +175,22 @@ nav a:hover {
 }
 
 /* Hero Section */
+/* Hero Section */
 .hero {
     height: 100vh;
-    background: linear-gradient(rgba(0, 31, 63, 0.7), rgba(0, 31, 63, 0.7)), url('/img/generated_images/cinematic_dark_blue_logistics_hero_background.png') no-repeat center center/cover;
     display: flex;
     align-items: center;
+    justify-content: center;
     text-align: center;
-    color: var(--white);
     padding-top: 80px;
     position: relative;
+    color: var(--white);
+    
+    /* Background */
+    background: linear-gradient(rgba(0, 31, 63, 0.7), rgba(0, 31, 63, 0.7)),
+                url('img/generated_images/cinematic_dark_blue_logistics_hero.png') center/cover no-repeat;
 }
+
 
 .hero-content {
     max-width: 800px;
